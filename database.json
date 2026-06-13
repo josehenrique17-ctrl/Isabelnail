@@ -1,0 +1,269 @@
+{
+  "catalog": [
+    {
+      "id": "cat_1",
+      "name": "Alongamento em acrílico",
+      "description": "Modelagem anatômica de acrílico esculpido que garante unhas longas, ultra resistentes, finas e com cutilagem técnica impecável inclusa.",
+      "price": 160,
+      "duration": 120,
+      "image": "https://images.unsplash.com/photo-1604654894610-df63bc536371?q=80&w=800&auto=format&fit=crop",
+      "professional": "Isabel Santos"
+    },
+    {
+      "id": "cat_2",
+      "name": "Blindagem em acrílico",
+      "description": "Camada protetora ultra resistente desenvolvida em acrílico sobre a unha natural para proteger contra quebras e descamações.",
+      "price": 130,
+      "duration": 90,
+      "image": "https://images.unsplash.com/photo-1519014816548-bf5fe059798b?q=80&w=800&auto=format&fit=crop",
+      "professional": "Isabel Santos"
+    },
+    {
+      "id": "cat_3",
+      "name": "Esmaltação em Gel",
+      "description": "Aplicação de cores sofisticadas em gel com cura em cabine LED/UV. Secagem 100% imediata e brilho impecável de alta durabilidade.",
+      "price": 70,
+      "duration": 60,
+      "image": "https://images.unsplash.com/photo-1607779097040-26e80aa78e66?q=80&w=800&auto=format&fit=crop",
+      "professional": "Samara"
+    },
+    {
+      "id": "cat_4",
+      "name": "Manicure",
+      "description": "Cutilagem técnica higiênica e detalhada das mãos combinada com esmaltação tradicional e hidratação das cutículas.",
+      "price": 35,
+      "duration": 40,
+      "image": "https://images.unsplash.com/photo-1519014816548-bf5fe059798b?q=80&w=800&auto=format&fit=crop",
+      "professional": "Samara"
+    },
+    {
+      "id": "cat_5",
+      "name": "Pedicure",
+      "description": "Tratamento completo dos pés com higienização, cutilagem precisa, esfoliação suave e hidratação restauradora de cutícula.",
+      "price": 45,
+      "duration": 45,
+      "image": "https://images.unsplash.com/photo-1519014816548-bf5fe059798b?q=80&w=800&auto=format&fit=crop",
+      "professional": "Samara"
+    },
+    {
+      "id": "cat_6",
+      "name": "Combo pé e mão",
+      "description": "O pacote completo essencial! Cuidado unificado para suas mãos e pés em uma única sessão, garantindo brilho, maciez e higiene impecáveis.",
+      "price": 70,
+      "duration": 80,
+      "image": "https://images.unsplash.com/photo-1519014816548-bf5fe059798b?q=80&w=800&auto=format&fit=crop",
+      "professional": "Samara"
+    }
+  ],
+  "clients": [
+    {
+      "id": "cli_1",
+      "name": "Maria Oliveira Santos",
+      "phone": "+55 (11) 98765-4321",
+      "email": "maria.oli@outlook.com",
+      "birthDate": "1994-06-12",
+      "notes": "Prefere formato amendoado fino. Sensibilidade a lixamento de motor em rotação média-alta.",
+      "totalVisits": 12,
+      "totalSpent": 1450,
+      "createdAt": "2026-01-10"
+    },
+    {
+      "id": "cli_2",
+      "name": "Ana Caroline Souza",
+      "phone": "+55 (11) 99123-4567",
+      "email": "anacarol@gmail.com",
+      "birthDate": "1997-06-12",
+      "notes": "Gosta muito de nail art minimalista e tons de marrom e vermelho clássico.",
+      "totalVisits": 8,
+      "totalSpent": 880,
+      "createdAt": "2026-02-15"
+    },
+    {
+      "id": "cli_3",
+      "name": "Mariana Costa Ramos",
+      "phone": "+55 (11) 97722-1133",
+      "email": "maricosta.ramos@terra.com.br",
+      "birthDate": "1995-09-24",
+      "notes": "Sempre agenda Alongamento em Gel com encapsulada de glitter. Cutilagem delicada.",
+      "totalVisits": 5,
+      "totalSpent": 750,
+      "createdAt": "2026-03-20"
+    },
+    {
+      "id": "cli_4",
+      "name": "Juliana Mendes Abreu",
+      "phone": "+55 (11) 96543-9876",
+      "email": "jumendes92@gmail.com",
+      "birthDate": "1992-12-05",
+      "notes": "Usa Banho de Gel para manter unhas quadradas. Foco em esmaltação neutra/nude.",
+      "totalVisits": 3,
+      "totalSpent": 330,
+      "createdAt": "2026-04-12"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "apt_1",
+      "clientId": "cli_1",
+      "clientName": "Maria Oliveira Santos",
+      "clientPhone": "+55 (11) 98765-4321",
+      "date": "2026-06-11",
+      "time": "10:00",
+      "procedureId": "cat_1",
+      "procedureName": "Alongamento",
+      "price": 160,
+      "status": "completed",
+      "notes": "Reconstrução com gel rosa leitoso.",
+      "professionalName": "Isabel Santos"
+    },
+    {
+      "id": "apt_2",
+      "clientId": "cli_2",
+      "clientName": "Ana Caroline Souza",
+      "clientPhone": "+55 (11) 99123-4567",
+      "date": "2026-06-11",
+      "time": "14:00",
+      "procedureId": "cat_3",
+      "procedureName": "Esmaltação em Gel",
+      "price": 75,
+      "status": "completed",
+      "notes": "Tom vermelho paixão clássico.",
+      "professionalName": "Samara"
+    },
+    {
+      "id": "apt_3",
+      "clientId": "cli_3",
+      "clientName": "Mariana Costa Ramos",
+      "clientPhone": "+55 (11) 97722-1133",
+      "date": "2026-06-12",
+      "time": "09:30",
+      "procedureId": "cat_1",
+      "procedureName": "Alongamento",
+      "price": 160,
+      "status": "pending",
+      "notes": "Encapsulada de glitter degradê prata e esmeralda.",
+      "professionalName": "Isabel Santos"
+    },
+    {
+      "id": "apt_4",
+      "clientId": "cli_4",
+      "clientName": "Juliana Mendes Abreu",
+      "clientPhone": "+55 (11) 96543-9876",
+      "date": "2026-06-12",
+      "time": "15:00",
+      "procedureId": "cat_2",
+      "procedureName": "Banho de Gel (Blindagem)",
+      "price": 110,
+      "status": "pending",
+      "notes": "Esmaltação nude capuccino.",
+      "professionalName": "Isabel Santos"
+    }
+  ],
+  "finance": [
+    {
+      "id": "fin_1",
+      "type": "income",
+      "amount": 1210,
+      "category": "Alongamento Gel",
+      "date": "2026-03-10",
+      "description": "Faturamento Quinzenal de Alongamento"
+    },
+    {
+      "id": "fin_2",
+      "type": "expense",
+      "amount": 150,
+      "category": "Lixas e Brocas",
+      "date": "2026-03-15",
+      "description": "Insumos rotativos"
+    },
+    {
+      "id": "fin_3",
+      "type": "income",
+      "amount": 840,
+      "category": "Esmaltação Gel",
+      "date": "2026-03-25",
+      "description": "Fechamento Quinzenal Esmaltação"
+    },
+    {
+      "id": "fin_4",
+      "type": "income",
+      "amount": 2650,
+      "category": "Alongamento Gel",
+      "date": "2026-04-05",
+      "description": "Alongamentos e Blindagens do mês"
+    },
+    {
+      "id": "fin_5",
+      "type": "expense",
+      "amount": 350,
+      "category": "Cabine LED/UV",
+      "date": "2026-04-10",
+      "description": "Cabine nova de backup"
+    },
+    {
+      "id": "fin_6",
+      "type": "income",
+      "amount": 980,
+      "category": "Spa e Manicure",
+      "date": "2026-04-20",
+      "description": "Serviços de manicure premium"
+    },
+    {
+      "id": "fin_7",
+      "type": "income",
+      "amount": 3340,
+      "category": "Alongamento Gel",
+      "date": "2026-05-02",
+      "description": "Concentração Dia das Mães Alongamentos"
+    },
+    {
+      "id": "fin_8",
+      "type": "expense",
+      "amount": 450,
+      "category": "Géis e Prep",
+      "date": "2026-05-15",
+      "description": "Repositor de Gel Xeque Mate e Desidrat"
+    },
+    {
+      "id": "fin_9",
+      "type": "expense",
+      "amount": 200,
+      "category": "Aluguel Sala",
+      "date": "2026-05-20",
+      "description": "Rateio de luz e água"
+    },
+    {
+      "id": "fin_10",
+      "type": "income",
+      "amount": 1420,
+      "category": "Nail Art",
+      "date": "2026-05-28",
+      "description": "Nail Art e Joias especiais"
+    },
+    {
+      "id": "fin_11",
+      "type": "income",
+      "amount": 160,
+      "category": "Alongamento Gel",
+      "date": "2026-06-11",
+      "description": "Faturamento Bruto - Alongamento"
+    },
+    {
+      "id": "fin_12",
+      "type": "income",
+      "amount": 75,
+      "category": "Esmaltação Gel",
+      "date": "2026-06-11",
+      "description": "Faturamento Bruto - Esmaltação em Gel"
+    },
+    {
+      "id": "fin_13",
+      "type": "expense",
+      "amount": 80,
+      "category": "Esmaltes Novas Cores",
+      "date": "2026-06-03",
+      "description": "Coleção de inverno"
+    }
+  ],
+  "reminders": []
+}

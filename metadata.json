@@ -1,0 +1,8 @@
+{
+  "name": "Vercel Supabase: Isabel Santos - Nail Designer",
+  "description": "Site profissional para a Nail Designer Isabel Santos, contendo catálogo de procedimentos, sistema de agendamento online, CRM de clientes, controle empresarial e relatórios financeiros.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
